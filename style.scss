@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #dceae2;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.container-card {
+  width: 45em;
+  height: 80em;
+  border-radius: 1em;
+  border: 2px solid black;
+  margin-top: 35em;
+}
+header.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./images/header.jpg");
+  background-size: cover;
+  object-fit: cover;
+  height: 33.33%;
+}
+h1.title {
+  background-color: #407a9b;
+  color: #ebf2f7;
+}
+p.desc {
+  background-color: #193554;
+  color: #ffffff;
+  font-weight: 800;
+  max-width: 30em;
+  text-align: center;
+}
+div.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+img.fwd-img {
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+}
+p.fw-desc {
+  max-width: 10em;
+}
+h2.sub-heading {
+  text-align: center;
+  margin-bottom: 2em;
+}
+h3.tertiary-heading {
+  max-width: 7em;
+}
+section.guide {
+  background-color: #ffffff;
+  height: 25em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img.guide-img {
+    width: 10em;
+    height: 12em;
+    margin: 0 2em;
+    border-radius: 1em;
+  }
+  div.flex-container-guide {
+    background-color: #a4dadc;
+    height: 20em;
+    width: 30em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 7px solid #1a3456;
+    border-radius: 2em;
+  }
+  h4.guide-heading {
+    margin-bottom: 1em;
+  }
+  h4.guide-name {
+    margin-top: 1em;
+  }
+}
